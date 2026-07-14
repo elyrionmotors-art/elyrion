@@ -18,16 +18,18 @@ header{
     border-bottom:2px solid #d4af37;
 }
 
-header h1{
+heaheader h1{
     font-size:60px;
     letter-spacing:8px;
     color:#d4af37;
+    margin:0;
 }
 
 header p{
     margin-top:15px;
     font-size:22px;
     color:#ccc;
+
 }
 
 .hero{
