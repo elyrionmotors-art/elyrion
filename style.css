@@ -72,8 +72,8 @@ flex:1;
 }
 
 .hero-image img{
-width:45%;
-max-width:450px;
+width:100%;
+max-width:500px;
 border-radius:12px;
 display:block;
 }
