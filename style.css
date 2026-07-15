@@ -116,10 +116,9 @@ section h2{
 
 }
 .hero img {
-    width: 50%;
-    max-width: 650px;
+    width: 40;
+    max-width: 400px;
     height: auto;
     display: block;
     margin: 20px auto;
-    border-radius: 12px;
 }
