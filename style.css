@@ -72,7 +72,7 @@ flex:1;
 }
 
 .hero-image img{
-width:650%;
+width:65%;
 max-width:650px;
 border-radius:12px;
 display:block;
@@ -101,7 +101,7 @@ border-top:1px solid #333;
 color:#999;
 }
 
-@media(max-width:6500px){
+@media(max-width:650px){
 
 .hero{
 flex-direction:row;
