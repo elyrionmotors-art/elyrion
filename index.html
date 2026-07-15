@@ -5,38 +5,155 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elyrion | Engineering Tomorrow's Grand Tourer</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    border-bottom:2px solid #d4af37;
+}
+
+header h1{
+    font-size:60px;
+    letter-spacing:5px;
+}
+
+header p{
+    color:#bbb;
+    margin-top:10px;
+    font-size:22px;
+}
+
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    max-width:1200px;
+    margin:60px auto;
+    padding:20px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h2{
+    color:#d4af37;
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:380px;
+    border-radius:15px;
+}
+
+.button{
+    display:inline-block;
+    background:#d4af37;
+    color:#111;
+    text-decoration:none;
+    padding:16px 35px;
+    border-radius:40px;
+    font-weight:bold;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    color:#d4af37;
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#888;
+}
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-image img{
+    max-width:260px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+.hero-text h2{
+    font-size:36px;
+}
+
+}
+</style>
 
 </head>
 
 <body>
 
 <header>
-    <h1>ELYRION</h1>
-    <p>Engineering Tomorrow's Grand Tourer</p>
+
+<h1>ELYRION</h1>
+
+<p>Engineering Tomorrow's Grand Tourer</p>
+
 </header>
 
 <section class="hero">
 
-    <div class="hero-text">
+<div class="hero-text">
 
-        <h2>Luxury. Performance. Innovation.</h2>
+<h2>Luxury. Performance. Innovation.</h2>
 
-        <p>
-            Elyrion is a next-generation luxury automotive company dedicated
-            to crafting elegant grand touring vehicles that blend timeless
-            design, advanced engineering, and sustainable performance.
-        </p>
+<p>
+Elyrion is a next-generation luxury automotive company dedicated to
+crafting elegant grand touring vehicles that blend timeless design,
+advanced engineering, and sustainable performance.
+</p>
 
-        <a href="#concept" class="button">
-            Discover the Elyrion GT
-        </a>
+<a href="#concept" class="button">Discover the Elyrion GT</a>
 
-    </div>
+</div>
 
-    <div class="hero-image">
-        <img src="file_00000000c0e471f4b853a7eaf0c28dd9.png" alt="Elyrion GT">
-    </div>
+<div class="hero-image">
+
+<img src="file_00000000c0e471f4b853a7eaf0c28dd9.png" alt="Elyrion GT">
+
+</div>
 
 </section>
 
@@ -45,34 +162,21 @@
 <h2>Elyrion GT Concept</h2>
 
 <p>
-The Elyrion GT is our flagship concept grand tourer, combining
-stunning design with cutting-edge technology to create the future
-of luxury performance.
+The Elyrion GT is our flagship grand tourer, combining handcrafted luxury,
+modern performance, and cutting-edge innovation.
 </p>
 
 </section>
 
-<section id="about">
+<section>
 
 <h2>About Elyrion</h2>
 
 <p>
-Elyrion is an independent luxury automotive marque focused on
-timeless design, advanced engineering, and handcrafted grand touring
-vehicles.
+Founded with a vision to redefine luxury mobility, Elyrion creates timeless
+grand touring vehicles that combine elegance, speed, and engineering
+excellence.
 </p>
-
-</section>
-
-<section id="future">
-
-<h2>Future Models</h2>
-
-<ul>
-<li>Elyrion GT</li>
-<li>Elyrion EV</li>
-<li>Elyrion Hyper GT</li>
-</ul>
 
 </section>
 
