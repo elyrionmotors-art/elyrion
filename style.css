@@ -101,7 +101,7 @@ border-top:1px solid #333;
 color:#999;
 }
 
-@media(max-width:4500px){
+@media(max-width:450px){
 
 .hero{
 flex-direction:row;
