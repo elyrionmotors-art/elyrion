@@ -122,3 +122,26 @@ section h2{
     display: block;
     margin: 20px auto;
 }
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+.hero-image img {
+    width: 550%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+}
